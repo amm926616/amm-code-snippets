@@ -1,0 +1,2 @@
+grep -I -r "some_text" .
+

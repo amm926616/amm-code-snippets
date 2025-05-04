@@ -1,0 +1,2 @@
+grep "main" * | grep -v test
+

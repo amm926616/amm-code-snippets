@@ -1,0 +1,6 @@
+# WARNING: This will reset dev to match main, losing any unmerged changes in dev
+git checkout dev
+git reset --hard origin/main
+
+# Then git push origin dev to reflect the changes
+git push -u origin

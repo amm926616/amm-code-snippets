@@ -1,0 +1,2 @@
+grep --include="*.js" -r "console.log" .
+
