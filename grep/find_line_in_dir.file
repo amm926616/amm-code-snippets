@@ -1,0 +1,1 @@
+grep -r "a line of string to find" "folder_path"
