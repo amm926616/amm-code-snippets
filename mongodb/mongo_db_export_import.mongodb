@@ -1,0 +1,17 @@
+Export
+ 
+Local
+mongodump --db concert --out ~/Documents/Projects/Root.Studio/LATTMAT/backup/
+ 
+Remote
+mongodump --uri "mongodb+srv://lattmat:VL5DLwlvI6rKriBv@lattmatdb.l7rkv.mongodb.net/concert" --out ~/Documents/Projects/Root.Studio/LATTMAT/backup/
+ 
+---------
+ 
+Import
+ 
+Local
+mongorestore --db concert ~/Documents/Projects/Root.Studio/LATTMAT/backup/concert
+ 
+Remote
+mongorestore --uri "mongodb://lattmat:VL5DLwlvI6rKriBv@lattmatdb.l7rkv.mongodb.net/concert" ~/Documents/Projects/Root.Studio/LATTMAT/backup/concert
